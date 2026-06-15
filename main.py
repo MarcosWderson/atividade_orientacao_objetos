@@ -8,8 +8,8 @@ class TelaLogin:
     def __init__(self):
         # ENCAPSULAMENTO: Dicionário privado simulando um banco de dados de usuários (login: senha)
         self.__usuarios_cadastrados = {
-            "joao.silva": "senha123",
-            "maria.oliveira": "admin123",
+            "marcos.santos": "senha123",
+            "adao.silva": "admin123",
             "admin": "1234"
         }
 
@@ -58,8 +58,8 @@ def main():
         print("=== PAINEL BANCÁRIO ===\n")
 
         # CRIAÇÃO DE OBJETOS
-        cc = ContaCorrente("João Silva", 1001, 500.0)
-        cp = ContaPoupanca("Maria Oliveira", 2001, 0.01)
+        cc = ContaCorrente("Marcos Santos", 1001, 500.0)
+        cp = ContaPoupanca("Adão Silva", 2001, 0.01)
 
         # --- Testando a Conta Corrente ---
         print("--- Operações: Conta Corrente ---")
